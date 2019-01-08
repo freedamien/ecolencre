@@ -1,0 +1,1 @@
+{hook h="displayTmHoverImage" id_product=$product.id_product home='home_default' large='large_default'}

@@ -83,7 +83,7 @@
 
         <label>
           <span>{l s='Message' d='Modules.Contactform.Shop'}</span>
-          <textarea cols="68" rows="3" name="message">{if $contact.message}{$contact.message}{/if}</textarea>
+          <textarea cols="69" rows="3" name="message">{if $contact.message}{$contact.message}{/if}</textarea>
         </label>
         
         {hook h='displayGDPRConsent' id_module=$id_module}

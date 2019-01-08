@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/prestashop/PRS05/PRS050083/themes/osam/templates/catalog/_partials/products-top.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="5174d1309f275ba6f275db3af9eb3e18">
+        <source>Grid</source>
+        <target>Grid</target>
+        <note>Context:
+File: /var/www/html/prestashop/PRS05/PRS050083/themes/osam/templates/catalog/_partials/products-top.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="4ee29ca12c7d126654bd0e5275de6135">
+        <source>List</source>
+        <target>List</target>
+        <note>Context:
+File: /var/www/html/prestashop/PRS05/PRS050083/themes/osam/templates/catalog/_partials/products-top.tpl:30</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

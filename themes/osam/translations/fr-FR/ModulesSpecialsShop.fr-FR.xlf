@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/prestashop/PRS05/PRS050083/themes/osam/modules/ps_specials/views/templates/hook/ps_specials.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="588907ab2d492aca0b07b5bf9c931eea">
+        <source>On sale</source>
+        <target>En promo</target>
+        <note>Context:
+File: /var/www/html/prestashop/PRS05/PRS050083/themes/osam/modules/ps_specials/views/templates/hook/ps_specials.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="f95ceb82c51c99dc9b9e5678b291c44b">
+        <source>All sale products</source>
+        <target>Tous les produits en promotion</target>
+        <note>Context:
+File: /var/www/html/prestashop/PRS05/PRS050083/themes/osam/modules/ps_specials/views/templates/hook/ps_specials.tpl:39</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

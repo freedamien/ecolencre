@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/prestashop/PRS05/PRS050083/themes/osam/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl" source-language="en-US" target-language="en-US" datatype="plaintext">
+    <body>
+      <trans-unit id="84be54bb4bd1b755a27d86388700d097">
+        <source>Brands</source>
+        <target>Brands</target>
+        <note>Context:
+File: /var/www/html/prestashop/PRS05/PRS050083/themes/osam/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="8e41eae149ff3fa38cc9c4fde945f2c3">
+        <source>No brand</source>
+        <target>No brand</target>
+        <note>Context:
+File: /var/www/html/prestashop/PRS05/PRS050083/themes/osam/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl:49</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

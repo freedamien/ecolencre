@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/var/www/html/prestashop/PRS05/PRS050083/themes/osam/modules/ps_newproducts/views/templates/hook/ps_newproducts.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="9ff0635f5737513b1a6f559ac2bff745">
+        <source>New products</source>
+        <target>Novedades</target>
+        <note>Context:
+File: /var/www/html/prestashop/PRS05/PRS050083/themes/osam/modules/ps_newproducts/views/templates/hook/ps_newproducts.tpl:28</note>
+      </trans-unit>
+      <trans-unit id="60efcc704ef1456678f77eb9ee20847b">
+        <source>All new products</source>
+        <target>Todas las novedades</target>
+        <note>Context:
+File: /var/www/html/prestashop/PRS05/PRS050083/themes/osam/modules/ps_newproducts/views/templates/hook/ps_newproducts.tpl:39</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

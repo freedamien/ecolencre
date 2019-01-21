@@ -1,0 +1,220 @@
+/**
+ *  2017 ModuleFactory.co
+ *
+ *  @author    ModuleFactory.co <info@modulefactory.co>
+ *  @copyright 2017 ModuleFactory.co
+ *  @license   ModuleFactory.co Commercial License
+ */
+
+#fspasc-calendar {
+    width: 100%;
+    max-width: 400px;
+    padding: 14px 20px 20px 20px;
+    background: #ffffff;
+    font-size: 12px;
+    color: #333333;
+    position: absolute;
+    top: 0;
+    display: none;
+    border: 1px solid #cbcbcb;
+    z-index: 10;
+}
+
+.fspasc-calendar-months {
+    width: 100%;
+    display: block;
+}
+
+.fspasc-calendar-month {
+    width: 100%;
+    display: none;
+}
+
+.fspasc-calendar-month.active {
+    display: block;
+}
+
+.fspasc-calendar-row-days {
+    width: 100%;
+    display: block;
+    clear: both;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.fspasc-calendar-row-nav {
+    width: 100%;
+    display: block;
+    clear: both;
+    line-height: 30px;
+}
+
+.fspasc-calendar-col {
+    width: 14.2857143%;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.fspasc-calendar-nav-side-empty {
+    width: 15%;
+    display: block;
+    float: left;
+    opacity: 0.25;
+    text-align: center;
+    cursor: not-allowed;
+}
+
+.fspasc-calendar-nav-left {
+    width: 15%;
+    display: block;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fspasc-calendar-nav-middle {
+    width: 70%;
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.fspasc-calendar-nav-right {
+    width: 15%;
+    display: block;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+}
+
+.fspasc-calendar-week {
+    width: 100%;
+    display: block;
+    clear: both;
+    border-right: 1px solid #c5c5c5;
+}
+
+.fspasc-calendar-week:last-child {
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.fspasc-calendar-day {
+    width: 14.2857143%;
+    display: block;
+    float: left;
+    text-align: center;
+    border-top: 1px solid #c5c5c5;
+    border-left: 1px solid #c5c5c5;
+    cursor: pointer;
+    background: #d3d3d3;
+    color: #454545;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.fspasc-calendar-day.disabled {
+    cursor: not-allowed;
+    background: #f6f6f6;
+    color: #c5c5c5
+}
+
+.fspasc-calendar-day.selected {
+    background: #42ac52;
+    color: #ffffff;
+}
+
+.fspasc-calendar-time-picker {
+
+}
+
+.fspasc-calendar-time-picker-header {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.fspasc-calendar-time-days {
+    border-top: 1px solid #c5c5c5;
+    border-left: 1px solid #c5c5c5;
+}
+
+.fspasc-calendar-time-day {
+    width: 100%;
+    display: none;
+}
+
+.fspasc-calendar-time-day.active {
+    display: block;
+}
+
+.fspasc-calendar-time-hour {
+    width: 14.2857143%;
+    display: block;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid #c5c5c5;
+    border-right: 1px solid #c5c5c5;
+    cursor: pointer;
+    background: #d3d3d3;
+    color: #454545;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+
+.fspasc-calendar-time-hour.disabled {
+    cursor: not-allowed;
+    background: #f6f6f6;
+    color: #c5c5c5
+}
+
+.fspasc-calendar-time-hour.selected {
+    background: #42ac52;
+    color: #ffffff;
+}
+
+.fspasc-calendar-buttons {
+    width: 100%;
+    display: block;
+}
+
+.fspasc-calendar-button {
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.fspasc-calendar-button-cancel {
+    background: #d3d3d3;
+    color: #454545;
+    margin-right: 10px;
+    border: 1px solid #cbcbcb;
+}
+
+.fspasc-calendar-button-cancel:hover {
+    background: #dcdcdc;
+}
+
+.fspasc-calendar-button-select {
+    background: #42ac52;
+    color: #ffffff;
+    margin-left: 10px;
+    border: 1px solid #399a49;
+}
+
+.fspasc-calendar-button-select:hover {
+    background: #48bc59;
+}
+

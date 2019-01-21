@@ -1,0 +1,3 @@
+mysqldump -h localhost -u db_user -p[4Rfvcde"] ecolencre > ecolencre.sql
+
+mysql -u so39j_prestatest -p[c31IodTQ5gIM] -h so39j.myd.infomaniak.com so39j_prestatest < ecolencre.sql

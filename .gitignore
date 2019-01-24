@@ -215,3 +215,7 @@ nb-configuration.xml
 .project
 .settings/
 .externalToolBuilders/
+
+
+# Cache
+/var/

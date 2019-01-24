@@ -93,6 +93,8 @@ themes/default-bootstrap/modules/*/mails/*
 /web/css/
 /web/js/
 
+# Cache
+/var/cache/prod/**
 
 # Created by https://www.gitignore.io/api/linux,osx,windows,sublimetext,phpstorm
 
@@ -216,6 +218,4 @@ nb-configuration.xml
 .settings/
 .externalToolBuilders/
 
-
-# Cache
 /var/

@@ -24,17 +24,27 @@
  *}
 {extends file='page.tpl'}
 
+{block name='page_content_container'}
+  <section id="content" class="page-content page-cms page-cms-{$cms.id}">
+  
+      {assign var="img_cms" value="img/cms/{$cms.id}.jpg"}
+    {if file_exists($img_cms)}
+        <div id="banner-cms">
+            <img src="{$urls.base_url}/img/cms/{$cms.id}.jpg" alt="{$cms.meta_title}" title="{$cms.meta_title}" /> 
+        </div>
+    {/if}  
+
 {block name='page_title'}
   {$cms.meta_title}
 {/block}
 
-{block name='page_content_container'}
-  <section id="content" class="page-content page-cms page-cms-{$cms.id}">
-
     {block name='cms_content'}
       {$cms.content nofilter}
     {/block}
-
+    
+    {block name='storeinfo'}
+		{hook h='displaystoreinfo' id_cms=$cms.id}    
+ 	{/block}
     {block name='hook_cms_dispute_information'}
       {hook h='displayCMSDisputeInformation'}
     {/block}

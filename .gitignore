@@ -1,4 +1,4 @@
-/var/
+/var2/*
 
 /.htaccess
 *.log
@@ -11,7 +11,7 @@ download/*
 /upload/*
 vendor/*
 docs/phpdoc-sf/
-composer.lock
+composer.lock	
 tests/Selenium/errorShots/
 tests/Selenium/errorDumps/
 

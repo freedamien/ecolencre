@@ -50,7 +50,7 @@ class Ec_MenuMagasins extends Module implements WidgetInterface
 
         
         $result = Db::getInstance()->executeS("
-                    SELECT sl.name , cl.link_rewrite  
+                    SELECT sl.name , cl.link_rewrite, s.id_cms  
                     FROM ps_store s
                     inner join ps_store_lang sl on sl.id_store = s.id_store
                     inner join ps_cms_lang cl on cl.id_cms = s.id_cms

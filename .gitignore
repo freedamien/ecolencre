@@ -36,6 +36,8 @@ tests/Selenium/settings.js
 themes/*/config/settings_*.json
 app/config/parameters.old.yml
 app/config/config.php
+config/defines.inc.php
+
 
 # Themes, modules and overrides
 
